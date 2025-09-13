@@ -43,14 +43,14 @@ nano config.json
 {
 	"pools":
 		[{
-			"name": "VIPORPOOL",
+			"name": "SG-VIPORPOOL",
 			"url":"stratum+tcp://sg.vipor.net:5040",
 			"timeout": 180,
 			"disabled": 0
 		}],
 	"user": "RUgMMJ3jfWX6VycDRM72155s1euZQDduq7.admin",
 	"algo": "verus",
-	"pass": "c=,mc=VRSC",
+	"pass": ",mc=VRSC",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 10,
@@ -102,7 +102,7 @@ nano config.json
 {
 	"pools":
 		[{
-			"name": "VIPORPOOL",
+			"name": "SG-VIPORPOOL",
 			"url":"stratum+tcp://sg.vipor.net:5040",
 			"timeout": 180,
 			"disabled": 0
