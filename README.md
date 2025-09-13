@@ -18,9 +18,9 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 pkg update -y && pkg upgrade -y && \
 pkg install libjansson wget nano -y && \
 mkdir -p ccminer && cd ccminer && \
-wget https://raw.githubusercontent.com/rismzun/ccminer-auto-run/main/ccminer && \
-wget https://raw.githubusercontent.com/rismzun/ccminer-auto-run/main/config.json && \
-wget https://raw.githubusercontent.com/rismzun/ccminer-auto-run/main/start.sh && \
+wget https://raw.githubusercontent.com/nopparatr/pre-compiled/main/ccminer && \
+wget https://raw.githubusercontent.com/nopparatr/pre-compiled/main/config.json && \
+wget https://raw.githubusercontent.com/nopparatr/pre-compiled/main/start.sh && \
 chmod +x ccminer start.sh && \
 echo 'bash /data/data/com.termux/files/home/ccminer/start.sh' >> /data/data/com.termux/files/usr/etc/bash.bashrc && \
 bash /data/data/com.termux/files/home/ccminer/start.sh
