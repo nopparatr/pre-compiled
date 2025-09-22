@@ -45,7 +45,7 @@
 
     "user": "RUgMMJ3jfWX6VycDRM72155s1euZQDduq7.admin",
 	"algo": "verus",
-	"pass": ",mc=VRSC",
+	"pass": "x",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 10,
